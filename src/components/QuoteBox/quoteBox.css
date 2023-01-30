@@ -1,0 +1,78 @@
+.typeTimeContainer {
+  width: 30%;
+  border-right: 1px solid black;
+}
+
+.quoteBoxContainer {
+  margin: 10px 20px 0 20px;
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.quoteBoxHeader {
+  font-size: 14px;
+  align-items: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  padding: 10px;
+}
+
+.quoteBoxHeader h4 {
+  font-size: 14px;
+}
+
+.quoteBoxHeader img {
+  width: 50px;
+  height: 50px;
+}
+
+.quoteBoxBody {
+  text-align: center;
+  padding: 10px;
+}
+
+.quoteBoxBody :first-child {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #4129c7;
+  font-weight: 800;
+}
+
+.quoteBoxBody p {
+  padding: 10px;
+}
+
+.fromToPriceContainer {
+  width: 70%;
+}
+
+.destination {
+  height: 20%;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #0b24fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  height: 80%;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 820px) {
+  .quoteBoxContainer {
+    flex-direction: column;
+  }
+  .typeTimeContainer {
+    width: 100%;
+  }
+  .fromToPriceContainer {
+    width: 100%;
+  }
+}
